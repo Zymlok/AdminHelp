@@ -1,0 +1,31 @@
+name: AdminHelp
+version: 1.0
+main: me.tifu.adminhelp.Main
+authors: [Tifu, Zymlok]
+
+commands:
+  heal:
+    description: Leczy cie!
+    aliases: [ulecz, lecz]
+    permission-message: Nie masz zezwolenia na uzycie tej komendy!
+  weather:
+    description: Zmien pogode!
+    aliases: [pogoda]
+    permission-message: Nie masz zezwolenia na uzycie tej komendy!
+  gm:
+    description: Zmien tryb gry sobie lub innym!
+    aliases: [tryb]
+    permission-message: Nie masz zezwolenia na uzycie tej komendy!
+  tp:
+    description: Teleportuj graczy!
+    permission-message: Nie masz zezwolenia na uzycie tej komendy!
+  tphere:
+    description: Teleportuj gracza do siebie!
+    permission-message: Nie masz zezwolenia na uzycie tej komendy!
+  czas:
+    description: Zmnienia czas! Jezeli chcesz zmienic czas w swiecie w ktorym jestes wybierz pore dnia | Jezeli chcesz zmienic czas w innym swiecie wybierz pore dnia i swiat!!
+  clean:
+    description: Czysci czat!
+    aliases: [cc]
+  spawner:
+    description: Spawnuje moby!
